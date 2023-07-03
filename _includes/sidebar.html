@@ -36,8 +36,8 @@
     <!-- about -->
     <li class="nav-item{% if page.title == 'About' %}{{ " active" }}{% endif %}">
       <a href="{{ '/' | relative_url }}" class="nav-link">
-        <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
-        {% capture tab_name %}{{ '/' | split: '/' }}{% endcapture %}
+        <i class="fa-fw fas fa-address-card"></i>
+
         <span>ABOUT</span>
       </a>
     </li>
@@ -45,7 +45,7 @@
     <!-- blog -->
     <li class="nav-item{% if page.title == 'Blog' or page.collection == 'posts' %}{{ " active" }}{% endif %}">
       <a href="{{ site.baseurl }}/blog/" class="nav-link">
-        <i class="fa-fw fas fa-pen ml-xl-3 mr-xl-3 unloaded"></i>
+        <i class="fa-fw fas fa-pen"></i>
         <span>BLOG</span>
       </a>
     </li>
