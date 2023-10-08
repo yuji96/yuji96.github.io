@@ -5,6 +5,11 @@
 bundle exec jekyll s
 ```
 
+公式のデモ
+
+- できること: https://chirpy.cotes.page/posts/text-and-typography/
+- 書き方: https://chirpy.cotes.page/posts/write-a-new-post/
+
 
 <div align="center">
 

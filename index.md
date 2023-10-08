@@ -25,7 +25,11 @@ title: About
 
 ## 研究発表 / Publications
 
-### 国内学会 / Domestic Conference
+### 査読あり / Refereed
+
+- 2023.12: <u>Yuji Yamamoto</u> , Takuya Matsuzaki. Absolute Position Embedding Learns Sinusoid-like Waves for Attention Based on Relative Position. Proceedings for the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023), December 2023.
+
+### 査読なし / Non-refereed
 
 - 2023.03: <u>山本悠士</u> , 松崎拓也. 自己注意機構における注意の集中が相対位置に依存する仕組み. 第 29 回言語処理学会年次大会. [[pdf](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/C3-3.pdf)]
 
