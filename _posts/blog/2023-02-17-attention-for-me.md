@@ -5,6 +5,7 @@ date: 2023-02-17 00:00:00 +0900
 math: true
 tags:
   - NLP
+  - WIP
 title: 自分なりの Self Attention の解釈
 parse_block_html: true
 ---
