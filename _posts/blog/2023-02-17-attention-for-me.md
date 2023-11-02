@@ -1,6 +1,6 @@
 ---
 categories:
-  - article
+  - blog
 date: 2023-02-17 00:00:00 +0900
 math: true
 tags:

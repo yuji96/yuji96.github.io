@@ -1,6 +1,6 @@
 ---
 categories:
-  - article
+  - blog
 date: 2022-02-07 00:00:00 +0900
 tags:
   - python

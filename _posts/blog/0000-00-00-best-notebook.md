@@ -1,0 +1,17 @@
+---
+categories:
+  - blog
+date: 0000-00-00 00:00:00 +0900
+math: true
+tags:
+  - WIP
+title: title
+parse_block_html: true
+published: false
+---
+
+tmux jupyter notebook
+
+vscode ssh
+
+python.analysis.extraPaths, python.autoComplete.extraPaths

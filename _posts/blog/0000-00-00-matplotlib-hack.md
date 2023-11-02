@@ -1,6 +1,6 @@
 ---
 categories:
-  - article
+  - memo
 date: 0000-00-00 00:00:00 +0900
 math: true
 tags:
