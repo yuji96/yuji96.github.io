@@ -131,17 +131,17 @@ $$
 $$
 d_{\bullet j}^2
 = \frac{1}{n}\sum_i \left( \|x_i\|^2 + \|x_j\|^2 - 2x_i^Tx_j \right)
-= \overline{\|x\|} + \|x_j\|^2 + 0
+= \overline{\|x\|^2} + \|x_j\|^2 + 0
 $$
 
-ただし、$\overline{\|\|x\|\|} := \frac{1}{n}\sum_i \|\|x_i\|\|$.
+ただし、$\overline{\|\|x\|\|^2} := \frac{1}{n}\sum_i \|\|x_i\|\|^2$.
 
 3 項目 $d_{i \bullet}^2$:
 
 $$
 d_{i \bullet}^2
 = \frac{1}{n}\sum_j \left( \|x_i\|^2 + \|x_j\|^2 - 2x_i^Tx_j \right)
-= \|x_i\|^2 + \overline{\|x\|} + 0
+= \|x_i\|^2 + \overline{\|x\|^2} + 0
 $$
 
 4 項目 $d_{\bullet \bullet}^2$:
@@ -149,7 +149,7 @@ $$
 $$
 d_{i \bullet}^2
 = \frac{1}{n^2}\sum_{i,j} \left( \|x_i\|^2 + \|x_j\|^2 - 2x_i^Tx_j \right)
-= 2\overline{\|x\|} + 0
+= 2\overline{\|x\|^2} + 0
 $$
 
 全部合わせると:
@@ -158,9 +158,9 @@ $$
 \begin{aligned}
   (CD^{(2)}C)_{ij}
   &= (\|x_i\|^2 + \|x_j\|^2 - 2x_i^Tx_j) \\
-  &- (\overline{\|x\|} + \|x_j\|^2) \\
-  &- (\|x_i\|^2 + \overline{\|x\|}) \\
-  &+ 2\overline{\|x\|} \\
+  &- (\overline{\|x\|^2} + \|x_j\|^2) \\
+  &- (\|x_i\|^2 + \overline{\|x\|^2}) \\
+  &+ 2\overline{\|x\|^2} \\
   &= - 2x_i^Tx_j
 \end{aligned}
 $$
