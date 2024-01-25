@@ -4,7 +4,6 @@ categories:
 date: 2022-08-11 00:00:00 +0900
 tags:
   - mac
-  - vscode
   - zsh
 title: macのセットアップ手順メモ
 ---
