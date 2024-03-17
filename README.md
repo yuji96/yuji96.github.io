@@ -5,6 +5,8 @@
 bundle exec jekyll s
 ```
 
+ルートを About にする方法: PR https://github.com/yuji96/yuji96.github.io/pull/4
+
 公式のデモ
 
 - できること: https://chirpy.cotes.page/posts/text-and-typography/
