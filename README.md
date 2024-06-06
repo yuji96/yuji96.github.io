@@ -5,6 +5,8 @@
 bundle exec jekyll s
 ```
 
+http://127.0.0.1:4000
+
 ルートを About にする方法: PR https://github.com/yuji96/yuji96.github.io/pull/4
 
 公式のデモ
