@@ -27,7 +27,7 @@ mac から mac へ移行した時の手順を記憶してる限り全部書い�
 - 先に brew, zinit, pyenv を入れておく
 - 今まで使っていた [zshrc](https://github.com/yuji96/dotfiles/blob/master/.zshrc) をコピペして立ち上げるだけで再現できた。
 - gitconfig ファイルもコピペで移行する。
-- ssh key もコピペする。（本当は鍵作り直しの方が良いのかもしれないけど）
+- ~~ssh key もコピペする~~ サボらず作り直すが吉
 
 zinit でインストールできるおすすめカスタマイズ
 
@@ -45,6 +45,7 @@ zinit でインストールできるおすすめカスタマイズ
 ## 入力ソースを Google 日本語入力にする
 
 mac の日本語入力は変換候補が使っているうちにバ ○ になっていくので、Google 日本語入力に変更するのがおすすめ。
+ただし、Google ドキュメントの作業中にブラウザがクラッシュするという謎バグが起きる。データは飛んだことないのでギリ許す。
 
 - [公式 HP](https://www.google.co.jp/ime/)
 - [インストール手順](https://shimautablog.com/mac_googleime_install/)
@@ -54,7 +55,7 @@ mac の日本語入力は変換候補が使っているうちにバ ○ にな�
 
 ## アプリをインストールする
 
-- zoom, line, slack, vscode, brave, office, deepl, etc.
+- zoom, line, slack, vscode, brave, MS office, deepl, etc.
 
 ## メール設定
 
@@ -64,5 +65,5 @@ mac の日本語入力は変換候補が使っているうちにバ ○ にな�
 
 ここから mac 移行の話。
 
-移行アシスタントは起動が遅く、全ファイル移そうとする。大抵の場合もういらないファイルが合ったりするので、新しい mac をハードディスクとして読み込んでコピったほうが良さげ
+移行アシスタントは起動が遅く、全ファイル移そうとする。大抵の場合もういらないファイルが合ったりするので、C-to-C USB コードで繋いで新しい mac をハードディスクとして読み込んでコピったほうが良さげ
 [https://support.apple.com/ja-jp/guide/mac-help/mchlb37e8ca7/mac](https://support.apple.com/ja-jp/guide/mac-help/mchlb37e8ca7/mac)
