@@ -7,7 +7,7 @@ tags:
   - math
 title: メモ：Bures 距離の性質
 parse_block_html: true
-published: true
+published: false
 ---
 
 $$
@@ -37,7 +37,8 @@ $$
 
 <img src="/assets/img/posts/bures/image.png" width="400px">
 
-しかし、式をぱっと見ただけだとなぜ方向の違いが捉えられるのか分からなかったので、Gemini と 2 日間会話しながら考えていた。この記事はその備忘録。
+しかし、式をぱっと見ただけだとなぜ方向の違いが捉えられるのか分からなかったので、
+Gemini と 3 日間会話しながら考えていた。この記事はその備忘録。
 
 > おい、ちょっとまて、なぜ日本語言語科学コースの学生が数式をコネコネいじっているんだ？と思った方は研究室のページ <https://yokoi-lab.net/research/> も合わせてご覧ください。
 
