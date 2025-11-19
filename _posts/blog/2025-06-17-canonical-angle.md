@@ -17,7 +17,7 @@ $$
 
 ## 目的
 $d$ 次元空間 $\mathbb{R}^d$ の部分空間 $\mathcal{P, Q}$ における正準角がなぜ特異値分解で求められるのかを知りたい．
-（YANS2024 でそういう話を聞いたことがきっかけで書いた記事）
+（[YANS2024](https://yans.anlp.jp/entry/yans2024) でそういう話を聞いたことがきっかけで書いた記事）
 
 ## 定義
 $d$ 次元空間 $\mathbb{R}^d$ の $m$ 次元部分空間 $\mathcal{A}$ の正規直交基底を $\\{\bm{a}_1,...,\bm{a}_m \\}$ とする．
@@ -51,12 +51,15 @@ $$
 
 $$
 \begin{align}
-    \bm{P}^2 = (\bm{AA}^\t)(\bm{AA}^\t) % &= \bm{A}(\bm{A}^\t\bm{A})\bm{A}^\t \\
+    \bm{P}^2 = (\bm{AA}^\t)(\bm{AA}^\t) 
     = \bm{A} (\bm{A}^\t \bm{A}) \bm{A}^\t
-    = \bm{AA}^\t %\hspace{3em}      % (\because \bm{A}^\t\bm{A} = \bm{I}_m) \\
+    = \bm{AA}^\t 
     = \bm{P}.
 \end{align}
 $$
+
+<!-- % &= \bm{A}(\bm{A}^\t\bm{A})\bm{A}^\t \\ -->
+<!-- %\hspace{3em}      % (\because \bm{A}^\t\bm{A} = \bm{I}_m) \\ -->
 
 
 ## 補題２：$\bm{PQ}$ の固有ベクトルは $\mathcal{A}$ 上にある
@@ -78,9 +81,10 @@ $$
 \begin{align}
     \lambda = \frac{\| \bm{PQa} \|}{\| \bm{a} \|}
     = \frac{\| \bm{PQa} \|}{\| \bm{Qa} \|} \cdot \frac{\| \bm{Qa} \|}{\| \bm{a} \|}
-    % = \frac{\| \bm{Pb} \|}{\| \bm{b} \|} \cdot \frac{\| \bm{Qa} \|}{\| \bm{a} \|}.
 \end{align}
 $$
+
+<!-- % = \frac{\| \bm{Pb} \|}{\| \bm{b} \|} \cdot \frac{\| \bm{Qa} \|}{\| \bm{a} \|}. -->
 
 まず，$\dfrac{\\| \bm{Qa} \\|}{\\| \bm{a} \\|}$ について考える．
 $\bm{a}$ を $\mathcal{B}$ 上にある $\bm{b}$ に射影すると，射影の定義より，
