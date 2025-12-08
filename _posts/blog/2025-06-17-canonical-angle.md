@@ -10,14 +10,15 @@ parse_block_html: true
 published: true
 ---
 
-$$
-\newcommand{\t}{\mathsf{T}}
-\newcommand{\bm}[1]{\boldsymbol{#1}}
-$$
 
 ## 目的
 $d$ 次元空間 $\mathbb{R}^d$ の部分空間 $\mathcal{P, Q}$ における正準角がなぜ特異値分解で求められるのかを知りたい．
 （[YANS2024](https://yans.anlp.jp/entry/yans2024) でそういう話を聞いたことがきっかけで書いた記事）
+
+$$
+\newcommand{\t}{\mathsf{T}}
+\newcommand{\bm}[1]{\boldsymbol{#1}}
+$$
 
 ## 定義
 $d$ 次元空間 $\mathbb{R}^d$ の $m$ 次元部分空間 $\mathcal{A}$ の正規直交基底を $\\{\bm{a}_1,...,\bm{a}_m \\}$ とする．

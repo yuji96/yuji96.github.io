@@ -11,11 +11,6 @@ parse_block_html: true
 published: true
 ---
 
-$$
-\newcommand{\t}{\mathsf{T}}
-\newcommand{\tr}{\text{tr}}
-\newcommand{\bm}[1]{\boldsymbol{#1}}
-$$
 
 ## はじめに
 
@@ -29,6 +24,12 @@ $$
 Bures 距離のお気持ちを理解したい。
 
 [IBIS2025](https://ibisml.org/ibis2025/) にて、2 つの（半）正定値行列の間に Bures 距離 $d$ という尺度があることを知った：
+
+$$
+\newcommand{\t}{\mathsf{T}}
+\newcommand{\tr}{\text{tr}}
+\newcommand{\bm}[1]{\boldsymbol{#1}}
+$$
 
 $$
 d(A, B)^2 = \tr[A] + \tr[B] + -2 \tr[ (A^{1/2} B A^{1/2})^{1/2} ]
