@@ -55,8 +55,23 @@ published: true
    do-release-upgrade -c  # 何のバージョンになるかチェックだけ
    sudo do-release-upgrade -f DistUpgradeViewNonInteractive
    ```
+   /boot の容量が不足していると `extracting 'noble.tar.gz'` (noble は version name) の途中でコマンドが異常終了する。`sudo tail -f /var/log/dist-upgrade/main.log` でそういうエラーが確認できる。その場合は `sudo apt autoremove` でお掃除してから再実行する。
 
-5. 後処理【重要】
+5. オートスリープの無効化
+   
+   稀に ubuntu upgrade するとオートスリープ機能が有効化される場合がある。サーバだと困るので無効化する。
+
+   ```
+   # 確認
+   systemctl status sleep.target suspend.target hibernate.target hybrid-sleep.target
+   # Loaded: masked と表示されていれば ok
+
+   # 無効化
+   sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+   sudo systemctl restart systemd-logind
+   ```
+
+6. 後処理【重要】
 
    とりあえず `lsb_release -a` でバージョン確認
 
@@ -66,7 +81,7 @@ published: true
    sudo dpkg -C
    ```
 
-6. nvidia-driver のインストール
+7. nvidia-driver のインストール
 
    ちなみに、OS upgrade 後は GPU を認識していないので GUI が使えなくなる。その場合は Alt+Ctrl+F2 を押して CLI から作業を継続する。
 
@@ -90,3 +105,4 @@ published: true
    ```
    sudo rmmod nvidia_drm nvidia_modeset nvidia_uvm nvidia
    ```
+   （↑あまりこういうことせず、素直に reboot するのが吉だが）
