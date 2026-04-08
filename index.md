@@ -20,7 +20,7 @@ title: About
 | 期間              | 所属                                       |
 | :---------------- | :----------------------------------------- |
 | 2025/04 -         | 総合研究大学院大学 日本語言語科学コース  |
-| 2023/04 - 2025/03        | 東京理科大学大学院 理学研究科 応用数学専攻 |
+| 2023/04 - 2025/03 | 東京理科大学大学院 理学研究科 応用数学専攻 |
 | 2019/04 - 2023/03 | 東京理科大学 理学部第一部 応用数学科       |
 
 ---
@@ -29,6 +29,7 @@ title: About
 
 ### 査読あり / Refereed
 
+- 2026/07: <u>Yuji Yamamoto</u>, Shinnosuke Isono, Yoshinobu Kawahara, Sho Yokoi. Timesteps of Mamba Align with Human Reading Times. In Findings of the Association for Computational Linguistics: ACL 2026 (ACL 2026 Findings), July 2026.
 - 2023/12: <u>Yuji Yamamoto</u> , Takuya Matsuzaki. Absolute Position Embedding Learns Sinusoid-like Waves for Attention Based on Relative Position. Proceedings for the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023), December 2023.
 
 ### 査読なし / Non-refereed
